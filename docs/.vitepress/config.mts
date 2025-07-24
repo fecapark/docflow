@@ -9,15 +9,13 @@ export default defineConfig({
     root: {
       label: "한국어",
       ...ko,
-      link: "/ko",
     },
     en: {
       label: "English",
       ...en,
-      link: "/en",
     },
   },
   rewrites: {
-    "/ko": "/",
+    "ko/:rest*": ":rest*",
   },
 });

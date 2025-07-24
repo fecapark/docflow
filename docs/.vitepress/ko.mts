@@ -37,8 +37,8 @@ export const ko = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: "홈", link: "/" },
-    { text: "소개", link: "/ko/intro" },
-    { text: "레퍼런스", link: "/ko/reference/cli/Configuration/Config" },
+    { text: "소개", link: "/intro" },
+    { text: "레퍼런스", link: "/reference/cli/Configuration/Config" },
   ];
 }
 
@@ -47,24 +47,24 @@ function sidebar(): DefaultTheme.Sidebar {
     {
       text: "가이드",
       items: [
-        { text: "소개", link: "/ko/intro" },
-        { text: "핵심 개념", link: "/ko/core-concept" },
-        { text: "설치하기", link: "/ko/installation" },
-        { text: "프로젝트 설정", link: "/ko/config" },
-        { text: "튜토리얼", link: "/ko/tutorial" },
+        { text: "소개", link: "/intro" },
+        { text: "핵심 개념", link: "/core-concept" },
+        { text: "설치하기", link: "/installation" },
+        { text: "프로젝트 설정", link: "/config" },
+        { text: "튜토리얼", link: "/tutorial" },
       ],
     },
     {
       text: "명령어",
       items: [
-        { text: "build", link: "/ko/command/build" },
-        { text: "check", link: "/ko/command/check" },
-        { text: "generate", link: "/ko/command/generate" },
+        { text: "build", link: "/command/build" },
+        { text: "check", link: "/command/check" },
+        { text: "generate", link: "/command/generate" },
       ],
     },
     {
       text: "고급",
-      items: [{ text: "플러그인", link: "/ko/plugins" }],
+      items: [{ text: "플러그인", link: "/plugins" }],
     },
     {
       text: "API 레퍼런스",
